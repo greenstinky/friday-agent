@@ -34,7 +34,7 @@ signal.signal(signal.SIGTERM, early_signal_handler)
 load_dotenv()
 
 # Constants
-SCRIPT_VERSION = "1.0.3"
+SCRIPT_VERSION = "1.0.2"
 WAV_FILE = "input.wav"
 FRIDAY_MEMORY_FILE = "friday_memory.txt"
 FRIDAY_TASKS_FILE = "friday_tasks.json"
